@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Berkas sementara SentencePiece (dibuat ulang saat training)
+outputs/_spm_train.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Catatan: file berikut SENGAJA di-commit agar repo lengkap saat diunggah:
+#   - tinygpt_bola.ipynb  (sudah berisi log training & chart hasil eksekusi)
+#   - corpus_bola.txt
+#   - outputs/*.png, outputs/hasil_bola.json, outputs/spm_bola.model, outputs/spm_bola.vocab

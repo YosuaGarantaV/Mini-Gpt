@@ -1,0 +1,14 @@
+
+
+torch>=2.2
+sentencepiece>=0.2.0
+matplotlib>=3.7
+numpy>=1.24
+
+# Hanya untuk menjalankan / mengeksekusi notebook (.ipynb):
+notebook>=7.0
+ipykernel>=6.0
+nbconvert>=7.0
+
+# Hanya untuk membuat laporan PDF (make_pdf.py):
+fpdf2>=2.7

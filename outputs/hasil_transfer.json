@@ -1,0 +1,26 @@
+{
+  "scratch": {
+    "val_loss": 2.7891149520874023,
+    "train_loss": 1.3706302642822266,
+    "gap": 1.4184846878051758,
+    "ppl": 16.26661669385837,
+    "bpc": 1.746371830601115,
+    "verbatim": 0.0,
+    "best_iter": 300
+  },
+  "transfer": {
+    "val_loss": 2.206773042678833,
+    "train_loss": 1.84664785861969,
+    "gap": 0.36012518405914307,
+    "ppl": 9.08634777640956,
+    "bpc": 1.3817452290304377,
+    "verbatim": 0.0,
+    "best_iter": 100
+  },
+  "config": {
+    "pretrain_words": 12716,
+    "fps_words": 5748,
+    "vocab": 505,
+    "arch": "block128 embed256 heads8 layers6"
+  }
+}
