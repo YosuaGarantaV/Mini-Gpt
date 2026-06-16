@@ -13,9 +13,9 @@ performanya. Seluruh proses pelatihan beserta **log dan grafik** tersimpan langs
 
 ---
 
-## 🎯 Sesuai instruksi tugas
+## 🎯 Task
 
-| No | Instruksi tugas | Status |
+| No | Task | Status |
 |----|-----------------|--------|
 | 1 | Korpus total kata **min 2.000** (bebas domain) | ✅ **±18.500 kata**, tema gaming/FPS |
 | 2 | Latih model dengan korpus tersebut | ✅ GPT decoder-only (~5–6 juta parameter) |
@@ -139,24 +139,3 @@ python generate_transfer.py --prompt "game fps "          # pakai model transfer
 python generate_transfer.py --ckpt scratch --prompt "game fps "   # pembanding
 ```
 
----
-
-## ⬆️ Cara unggah ke GitHub
-
-Dari dalam folder `tinygpt_gaming/`:
-```bash
-git init
-git add .
-git commit -m "Tiny GPT scale-up - mini corpus gaming/FPS (Modul 9 ST167)"
-git branch -M main
-git remote add origin https://github.com/<username>/<nama-repo>.git
-git push -u origin main
-```
-> Notebook sudah berisi output (log + chart) sehingga langsung tampil rapi di halaman GitHub.
-
----
-
-## 📚 Referensi
-Modul mengikuti struktur [annaamikom/tinyGPT](https://github.com/annaamikom/tinyGPT)
-(`transformer_blocks.py`, `corpus.txt`, `tinygpt.py`) — di sini diadaptasi menjadi satu notebook
-mandiri bertema gaming/FPS dengan model & korpus yang diperbesar.
