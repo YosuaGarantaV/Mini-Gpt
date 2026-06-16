@@ -1,7 +1,5 @@
 # Tiny GPT dengan Mini Corpus — Tema Gaming / FPS 🎮
 
-> Proyek **Data Mining ST167 — Modul 9: Membangun Tiny GPT dengan Mini Corpus**
-> Fakultas Ilmu Komputer, Universitas Amikom Yogyakarta.
 
 Membangun sebuah **GPT (Transformer decoder-only)** dari nol dengan PyTorch, lalu melatihnya
 di atas korpus teks berbahasa Indonesia bertema **gaming, khususnya FPS (first person shooter)**
@@ -35,8 +33,6 @@ tinygpt_gaming/
 ├── README.md                 # dokumen ini
 ├── LAPORAN.md                # laporan + analisis performa (untuk submission)
 ├── HASIL_TRAINING.md         # semua output 1 run: chart, tabel, log, contoh generate
-├── LAPORAN_GAMING.docx       # laporan versi Word (.docx)
-├── LAPORAN_GAMING.pdf        # laporan versi PDF (siap cetak/kirim)
 ├── requirements.txt          # daftar dependensi
 ├── .gitignore
 ├── corpus_gaming.txt         # korpus gaming/FPS (±18.500 kata)  ← input utama
@@ -66,7 +62,7 @@ tinygpt_gaming/
 ### 1. Pasang dependensi
 ```bash
 pip install -r requirements.txt
-# GPU NVIDIA (mis. RTX 50-series): pip install torch --index-url https://download.pytorch.org/whl/cu128
+
 ```
 
 ### 2. Buka & jalankan notebook
